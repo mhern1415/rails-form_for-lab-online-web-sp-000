@@ -4,7 +4,9 @@ class SchoolClassesController < ApplicationController
     @school_classes = SchoolClass.all
   end
   
-  
+  def show 
+    
+  end
   
   
   
