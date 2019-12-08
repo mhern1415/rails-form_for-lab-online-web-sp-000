@@ -8,7 +8,7 @@ class SchoolClassesController < ApplicationController
     @school_classes = SchoolClass.find(params[:id])
   end
   
-  
+  def new
   
   
 end
